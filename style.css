@@ -5,7 +5,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #2563EB;
+    background-color: #0A0A0A;
 }
 nav ul{
     list-style-type: none;
@@ -17,5 +17,42 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
+}
+header{
+    text-align: center;
+    background-color:gray;
+    background:linear-gradient(135deg, #38dbf8, #4cf0ac);
+  }
+header h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0F172A;
+}
+
+header p{
+    font-size: 20px;
+    color: #1E293B;
+}
+header button{
+    font-size: 20px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: #14B8A6;
+    color: #00ffff;
+    cursor: pointer;
+    animation: neonglow 1.5s infinite alternate;
+    margin: 10px;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+@keyframes neonglow{
+    0% { box-shadow: 0 0 0px #00ffff;}
+    100% { box-shadow: 0 0 30px #00D8FF;}
+}
+.btn-biru:hover{
+    background-color: #0284C7;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(2,  132, 199,  0.3);
 }
