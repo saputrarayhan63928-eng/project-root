@@ -198,3 +198,42 @@ main span{
     border-radius: 50px;
     font-weight: bold;
 }
+footer{
+    text-align: center;
+    background:linear-gradient(135deg, #38dbf8, #4cf0ac);
+    
+}
+input, textarea {
+  width: 400px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.9);
+  font-size: 16px;
+  margin-bottom: 20px;
+  outline: none;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.judul3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.button{
+  background: linear-gradient(90deg, #942dc1, #4b28d6);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  width: 400px;
+}
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(71, 28, 171, 0.605);
+}
