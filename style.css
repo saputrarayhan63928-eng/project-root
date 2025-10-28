@@ -37,7 +37,6 @@ header h1{
     font-size: 40px;
     color: #0F172A;
 }
-
 header p{
     font-size: 20px;
     color: #1E293B;
@@ -91,7 +90,7 @@ main span{
 .slideshow {
   position: relative;
   width: 100%;
-  max-width: 800px;
+  max-width: 500px;
   margin: 0px 100px 0px 100px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -122,4 +121,80 @@ main span{
   40% { opacity: 0; }
   100% { opacity: 0; }
 }
-
+.judul2{
+   justify-content: center;
+   display: flex;
+   color: #183bb0;
+}
+.Project{
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.list li {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.list img {
+  width: 60px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+.list h3 {
+  color: #0F172A;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.list p {
+  color: #334155;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.label1{
+    background-color: orange;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.label2{
+    background-color: #38dbf8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    display: block;
+    margin: 10px;
+    font-weight: bold;
+}
+.label3{
+    background-color: greenyellow;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.label4{
+    background-color: rgb(254, 50, 50);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
