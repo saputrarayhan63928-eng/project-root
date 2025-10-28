@@ -32,6 +32,9 @@ header{
     background-color:gray;
     background:linear-gradient(135deg, #38dbf8, #4cf0ac);
   }
+  header a{
+    text-decoration: none;
+  }
 header h1{
     font-weight: bold;
     font-size: 40px;
